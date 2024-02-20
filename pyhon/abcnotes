@@ -1,0 +1,72 @@
+Module is like a code library which can be used to borrow code written by somebody else in our python program. There are two types of modules in python:
+
+1:--Built in Modules - These modules are ready to import and use and ships with the python interpreter. there is no need to install such modules explicitly.
+2:--External Modules - These modules are imported from a third party file or can be installed using a package manager like pip or conda. 
+Since this code is written by someone else, we can install different versions of a same module with time.
+
+##Variables and Objects
+•Variables are the basic unit of storage for a program.
+• Variables can be created and destroyed.
+• At a hardware level, a variable is a reference to a location in memory.
+• Programs perform operations on variables and alter or fill in their values.
+• Objects are higher level constructs that include one or more variables and the set of operations that work on these variables.
+• An object can therefore be considered a more complex variable.
+•Objects are variables that contain data and functions that can be used to manipulate the data.
+
+##Classes vs. Objects
+•A class is a code template for creating objects. Objects have member variables and have behaviour associated with them. 
+ In python a class is created by the keyword class . An object is created using the constructor of the class. 
+ This object will then be called the instance of the class.
+• Every Object belongs to a certain class.
+• Classes are abstract descriptions of the structure and functions of an object.
+• Objects are created when an instance of the class is created by the program.
+• For example, “Fruit” is a class while an “Apple” is an object.
+
+##Datatypes
+•there are different types of datatypes in python.
+
+1:--List
+•list is use to store multiple items in a single variable.
+•it is ordered and mutable and it allows duplicate items.
+•it uses sq. bracket[].
+• syntax -- day1 = ['monday' , 'tuesday' , 'wednessday']
+>>> it's operations are
+    •apend , insert , remove , sort , extend , pop , delete, reverse.
+
+2:--Tuple 
+• It is collection of items which is orderd and unchangeable.
+• writen in () round bracket.
+• Maintain integrity of data during program execution.
+>>> operations are
+   •access items , count items , lenght method , looping , index method.
+
+Dictionaries:
+• Dictionaries are unordered and changeable mappings of ’Name : Value’ associations. 
+• Comparable to hashes and associative arrays in other languages. 
+• Intended to approximate how humans remember associations.
+• it uses {} curly bracket.
+
+Sets
+ • Special data type introduced since Python 2.4 onwards to support mathematical set theory operations.
+ • Unordered collection of unique items.
+ • Set itself is mutable, BUT every item in the set has to be an immutable type.
+ • So, sets can have numbers, strings and tuples as items but cannot have lists or dictionaries as items.
+
+Indentation:
+ •Python uses indentation to indicate blocks of code. It's crucial for readability and structure.
+
+Break:
+  the break statement enables a program to skip over a part of the program.
+  A break statement terminates the very loop it lies within.
+
+NumPy:
+   Purpose: NumPy (Numerical Python) is the fundamental package for numerical computing in
+   Python.
+
+Key Features:
+  o Multidimensional arrays: Efficient data structures for representing vectors, matrices, and
+  tensors.
+  o Mathematical functions: A wide range of mathematical operations that can be applied
+  element-wise to arrays.
+  o Broadcasting: A powerful mechanism for performing operations on arrays of different
+  shapes.
