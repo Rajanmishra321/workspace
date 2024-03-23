@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "linux-gcc-x64",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [],
+            "cStandard": "${default}",
+            "cppStandard": "${default}",
+            "compilerPath": "gcc",
+            "intelliSenseMode": "linux-gcc-x64"
+        },
+        {
+            "name": "linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": []
+        },
+        {
+            "name": "dsa1.cpp",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": []
+        }
+    ],
+    "version": 4
+}

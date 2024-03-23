@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+
+        /* element selector */
+        div{
+            background-color: aqua;
+        }
+
+        /* class selector */
+        .span{
+            background-color: blue;
+            color: red;
+        }
+
+        /* id selector */
+        #para{
+            background-color: black;
+            color: white;
+        }
+
+
+        /* child selector */
+        div>p{
+            color: teal;
+            background-color: black;
+        }
+
+        /* descendent selector */
+        span p{
+            color: teal;
+        }
+
+        /* universal selectors */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        /* pseudo selectors */
+        a:visited{
+            color: yellow; 
+        }
+    </style>
+</head>
+<body>
+    <div>
+        hello every one
+    </div>
+    <span class="span">
+        hello my name is rajan mishra
+    </span>
+    <p id="para">
+        this is paragraph one 
+    </p>
+
+    <div>
+        <p>
+            this para inside the div
+        </p>
+    </div>
+
+    <span>
+        <p>
+            <p>
+                inside span inside p iniside para
+            </p>
+        </p>
+    </span>
+
+    <a href="https://www.google.com">go to google</a>
+</body>
+</html>

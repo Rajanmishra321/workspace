@@ -1,0 +1,21 @@
+#card{
+    border: 5px solid black;
+    margin: 5px;
+    padding: 10px;
+    background-color: bisque;
+}
+#name {
+    color: aqua;
+}
+#interest{
+    color: aquamarine;
+}
+#link{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid red;
+}
+/* #link{
+    display: inline-block;
+} */
