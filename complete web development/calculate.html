@@ -1,0 +1,52 @@
+<!-- <html>
+<script>
+   async function populate() {
+        let a = document.getElementById('firstvalue').value;
+        let b = document.getElementById('secondvalue').value
+        const response = await fetch('https://sum-server.100xdevs.com/sum?a='+a+'&b='+b)
+        const ans = await response.text()
+        document.getElementById('finalSum').innerHTML=ans;
+    }
+</script>
+
+<body>
+    <input id="firstvalue" type="text" placeholder="first number"></input> <br></br>
+    <input id="secondvalue" type="text" placeholder="second number"></input> <br></br>
+    <button onclick="populate()">calculate sum</button><br></br>
+    <div id="finalSum"></div>
+</body>
+
+</html> -->
+
+<html>
+<script>
+    function debouncepopulate() {
+        let timeout;
+        clearTimeout(timeout)
+        timeout = setTimeout(function () {
+            populate()
+        }, 100)
+
+        //clearTimeout is function which use to clear the privious timeout
+    }
+    async function populate() {
+        let principal = document.getElementById('principal').value;
+        let rate = document.getElementById('rate').value
+        let year = document.getElementById('years').value
+        const response = await fetch('https://sum-server.100xdevs.com/interest?principal=' + principal + '&rate=' + rate + '&time=' + year)
+        const ans = await response.text()
+        document.getElementById('final interest').innerHTML = ans;
+
+    }
+</script>
+
+<body>
+    <input oninput="debouncepopulate()" id="principal" type="text" placeholder="principal amount"></input> <br></br>
+    <input oninput="debouncepopulate()" id="rate" type="text" placeholder="rate"></input> <br></br>
+    <input oninput="debouncepopulate()" id="years" type="text" placeholder="years"></input> <br></br>
+    <!-- <button onclick="populate()">calculate interest</button><br></br> -->
+
+    <div id="final interest"></div>
+</body>
+
+</html>

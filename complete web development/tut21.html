@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Foldit:wght@200&family=Ubuntu:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Delicious Handrawn', cursive;
+            font-family: 'Foldit', cursive;
+            font-family: 'Ubuntu', sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid green;
+            margin: 50px auto;
+            background-color: rgb(250, 163, 87);
+
+        }
+
+        .item {
+            border: 3px solid blue;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: antiquewhite;
+        }
+
+        #fruits {
+            float: left;
+            width: 48%;
+
+        }
+
+        #computer {
+            float: right;
+            width: 48%;
+
+        }
+
+        #stationary {
+            clear: both;
+            width: 100%;
+
+        }
+
+        p,h3 {
+            text-align: left;
+            text-align: right;
+            text-align: center;
+            text-align: justify;
+        }
+
+        h1 {
+            margin: auto;
+            width: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>welcome to my store </h1>
+        <div id="fruits" class="item">
+            <h3>fruits</h3>
+            <p id="fruitspara" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit minus a
+                molestias ullam atque officiis? Laborum, fuga incidunt! Iure cumque vero illo natus dicta. Impedit ullam
+                iusto exercitationem cum ratione accusantium ut dolore. Lorem ipsum dolor sit amet consectetur
+                adipisicing elit. Veritatis quae quaerat dicta? Iste quia corporis labore natus nihil doloribus
+                quibusdam ipsum odio laborum assumenda porro, eligendi ea, hic quod veritatis? Accusantium facilis
+                impedit minima.</p>
+        </div>
+        <div id="computer" class="item">
+            <h3>computer</h3>
+            <p id="computeritem" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit minus
+                a molestias ullam atque officiis? Laborum, fuga incidunt! Iure cumque vero illo natus dicta. Impedit
+                ullam iusto exercitationem cum ratione accusantium ut dolore. Lorem ipsum dolor, sit amet consectetur
+                adipisicing elit. Dolorum, expedita. Assumenda quibusdam similique perferendis commodi harum consectetur
+                omnis numquam doloremque tempora maxime, repudiandae ab sint reiciendis dignissimos illum cumque,
+                debitis aperiam dolorum quo odit!</p>
+        </div>
+        <div id="stationary" class="item">
+            <h3>stationary</h3>
+            <p id="stationaryitem" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit
+                minus a molestias ullam atque officiis? Laborum, fuga incidunt! Iure cumque vero illo natus dicta.
+                Impedit ullam iusto exercitationem cum ratione accusantium ut dolore.</p>
+        </div>
+        <div id="glasses" class="item">
+            <h3>glasses</h3>
+            <p id="glasssesitem" class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit minus
+                a molestias ullam atque officiis? Laborum, fuga incidunt! Iure cumque vero illo natus dicta. Impedit
+                ullam iusto exercitationem cum ratione accusantium ut dolore.</p>
+        </div>
+    </div>
+</body>
+
+</html>

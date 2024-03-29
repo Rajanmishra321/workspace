@@ -1,0 +1,12 @@
+h1{
+    color: blue;
+    background-color: yellow;
+    text-decoration: line-through;
+}
+body{
+    background-color: pink;
+}
+button{
+    color: white;
+    background-color: blue;
+}
